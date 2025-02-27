@@ -12,6 +12,8 @@ document.getElementById("passwordForm").addEventListener("submit", function (eve
     }
 
     if (password1 !== password2) {
+        message.textContent = "Passwords do not match";
+        message.style.color = "red";
         alert("Passwords do not match.");
         return;
     }
