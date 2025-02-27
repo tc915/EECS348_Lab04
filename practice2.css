@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ruslan+Display&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#title {
+  margin-left: 3rem;
+}
+
+p {
+  padding: 3rem;
+  border: 1px solid black;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin-left: 3rem;
+}
+
+.input_container span {
+  margin-bottom: 1rem;
+}
+
+.input_container span label {
+  margin-right: 2rem;
+}
+
+.value_display {
+  display: block;
+}
